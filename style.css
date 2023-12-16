@@ -1,0 +1,87 @@
+    .imagen-pequena {
+        width: 200px;
+        height: 70px;
+    }
+
+    body {
+        background-color: #247f6e70; 
+        font-family: 'Open Sans', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #portada {
+        background-image: url('portada.jpg'); 
+        background-size: cover;
+        background-position: center;
+        padding: 200px 0; 
+    }
+
+    .contenedor-texto {
+        max-width: 1200px; 
+        margin:  0 auto; 
+        padding: 20px; 
+    }
+
+    .bloque-texto {
+        background-color: #dddddd97;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 15px; 
+    }
+
+    .bloque-texto h2 {
+        color: black;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .bloque-texto p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    h1 {
+        font-family: 'Lobster', cursive; 
+        font-size: 100px;
+        font-weight: bold; 
+        text-align: center; 
+    }
+
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-weight: bold; 
+        text-align: center; 
+    }
+
+    header, nav {
+        text-align: center;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav li {
+        display: inline-block;
+        margin: 0 10px; 
+    }
+
+    nav a {
+        text-decoration: none;
+        color: rgb(161, 201, 216);
+        background-color: rgb(10, 100, 102);
+        padding: 10px;
+        transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+        background-color: rgb(2, 53, 54); 
+    }
